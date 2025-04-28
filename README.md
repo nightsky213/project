@@ -18,7 +18,7 @@
    Run the container, mapping the local `html/` directory to `/var/www/html` inside the container:
 
    ```bash
-   docker run -d -p 81:80 --name myapache -v ./html:/var/www/html ubuntu_apache
+   docker run -d -p 81:80 --name ubuntu_apache -v ./html:/var/www/html myapache
    ```
 
    - `-d` — Run the container in detached mode (background).
