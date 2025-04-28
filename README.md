@@ -8,7 +8,7 @@
    First, build the Docker image from the custom Dockerfile:
 
    ```bash
-   docker build -f ubuntu_apache.dockerfile -t myapache_image .
+   docker build -f ubuntu_apache -t myapache_image .
    ```
 
    - This will build the Docker image and tag it as `myapache_image`.
