@@ -19,6 +19,7 @@
 
    ```bash
    docker run -d -p 81:80 --name ubuntu_apache -v ./html:/var/www/html myapache
+
    ```
 
    - `-d` — Run the container in detached mode (background).
