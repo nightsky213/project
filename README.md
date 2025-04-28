@@ -24,7 +24,7 @@
    - `-d` — Run the container in detached mode (background).
    - `-p 81:80` — Maps port 81 on your host to port 80 in the container.
    - `--name myapache` — Names the container `myapache`.
-   - `-v html:/var/www/html` — Mounts the local `html/` folder to the container's `/var/www/html` directory.
+   - `-v ./html:/var/www/html` — Mounts the local `html/` folder to the container's `/var/www/html` directory.
 
 3. **Access the Web Page:**
 
